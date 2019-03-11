@@ -16,6 +16,7 @@ services:
       - ../compose/local/config.d:/var/www/html/protected/application/conf/config.d
 
       # themes and plugins
+      - ../plugins/FacebookEvents:/var/www/html/protected/application/plugins/FacebookEvents
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
