@@ -1,0 +1,6 @@
+{
+    "name": "mapasculturais/plugin-facebook-events",
+    "require": {
+        "facebook/graph-sdk": "^5.7"
+    }
+}
