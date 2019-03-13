@@ -7,5 +7,12 @@ return [
         'EvaluationMethodDocumentary' => ['namespace' => 'EvaluationMethodDocumentary'],
         
         'MultipleLocalAuth' => [ 'namespace' => 'MultipleLocalAuth' ],
+        'FacebookEvents' => [ 
+            'namespace' => 'FacebookEvents',
+            'config' => [
+                'app_id' => '',
+                'app_secret' => ''
+            ]
+        ],
     ]
 ];
